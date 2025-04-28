@@ -34,6 +34,7 @@ let heading3 = document.querySelectorAll("h3")
 console.log(heading3);
 
 
+let div = document.querySelector("div")
 let button = document.querySelector("button")
 
 button.addEventListener("click", function () {
@@ -42,6 +43,7 @@ button.addEventListener("click", function () {
     heading.style.textAlign= "center"
     heading.style.textTransform= "upperCase"
     heading.style.borderBottom= "2px solid teal"
+    div.style.backgroundColor= "#626F47"
 })
 
 
